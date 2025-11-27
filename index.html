@@ -1,12 +1,229 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sample HTML Page</title>
+    <title>Momentos Eternos - Fotografía de Bodas</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Welcome to the Sample HTML Page</h1>
-    <p>This is a simple HTML document structure.</p>
+    <!-- Header / Navigation -->
+    <header>
+      <nav>
+        <div class="logo">Momentos Eternos</div>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sobre-mi">Sobre Mí</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Capturando el Día Más Especial</h1>
+        <p>Fotografía profesional de bodas que cuenta tu historia de amor</p>
+        <a href="#contacto" class="btn-primary">Reserva tu Fecha</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Sobre Mí</h2>
+            <p>
+              Hola, soy María García, fotógrafa especializada en bodas con más
+              de 10 años de experiencia. Mi pasión es capturar los momentos más
+              emotivos y auténticos de tu día especial.
+            </p>
+            <p>
+              Creo que cada boda cuenta una historia única, y mi objetivo es
+              preservar esos recuerdos para que puedas revivirlos una y otra
+              vez.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="placeholder-image">📷</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+      <div class="container">
+        <h2>Galería</h2>
+        <p class="section-subtitle">Momentos inolvidables capturados</p>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="placeholder-image">💍</div>
+            <p>Ceremonia</p>
+          </div>
+          <div class="gallery-item">
+            <div class="placeholder-image">💐</div>
+            <p>Detalles</p>
+          </div>
+          <div class="gallery-item">
+            <div class="placeholder-image">💑</div>
+            <p>Pareja</p>
+          </div>
+          <div class="gallery-item">
+            <div class="placeholder-image">🎉</div>
+            <p>Celebración</p>
+          </div>
+          <div class="gallery-item">
+            <div class="placeholder-image">👰</div>
+            <p>Novios</p>
+          </div>
+          <div class="gallery-item">
+            <div class="placeholder-image">🌹</div>
+            <p>Romántico</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+      <div class="container">
+        <h2>Servicios</h2>
+        <p class="section-subtitle">Paquetes diseñados para tu día especial</p>
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>Básico</h3>
+            <div class="price">$800</div>
+            <ul>
+              <li>4 horas de cobertura</li>
+              <li>200+ fotos editadas</li>
+              <li>Galería online</li>
+              <li>1 fotógrafo</li>
+            </ul>
+            <a href="#contacto" class="btn-secondary">Consultar</a>
+          </div>
+          <div class="service-card featured">
+            <div class="badge">Más Popular</div>
+            <h3>Premium</h3>
+            <div class="price">$1,500</div>
+            <ul>
+              <li>8 horas de cobertura</li>
+              <li>500+ fotos editadas</li>
+              <li>Álbum premium</li>
+              <li>2 fotógrafos</li>
+              <li>Sesión de compromiso</li>
+            </ul>
+            <a href="#contacto" class="btn-primary">Reservar</a>
+          </div>
+          <div class="service-card">
+            <h3>Deluxe</h3>
+            <div class="price">$2,500</div>
+            <ul>
+              <li>Cobertura completa</li>
+              <li>800+ fotos editadas</li>
+              <li>2 álbumes premium</li>
+              <li>3 fotógrafos</li>
+              <li>Video corto</li>
+              <li>Sesión post-boda</li>
+            </ul>
+            <a href="#contacto" class="btn-secondary">Consultar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>Testimonios</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p class="quote">
+              "María capturó cada momento de nuestra boda de manera perfecta.
+              Las fotos son hermosas y transmiten toda la emoción del día."
+            </p>
+            <p class="author">- Ana y Carlos</p>
+          </div>
+          <div class="testimonial">
+            <p class="quote">
+              "Profesionalismo y creatividad en cada foto. Superó todas nuestras
+              expectativas. ¡Altamente recomendada!"
+            </p>
+            <p class="author">- Laura y Miguel</p>
+          </div>
+          <div class="testimonial">
+            <p class="quote">
+              "Las fotos son una obra de arte. María tiene un don especial para
+              capturar los momentos más emotivos."
+            </p>
+            <p class="author">- Sofia y David</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p class="section-subtitle">¿Listo para reservar tu fecha?</p>
+        <div class="contact-content">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Nombre completo" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" placeholder="Teléfono" required />
+            </div>
+            <div class="form-group">
+              <input type="date" placeholder="Fecha de la boda" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Cuéntame sobre tu boda"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar Mensaje</button>
+          </form>
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>📧 Email</h3>
+              <p>info@momentoseternos.com</p>
+            </div>
+            <div class="info-item">
+              <h3>📱 Teléfono</h3>
+              <p>+34 123 456 789</p>
+            </div>
+            <div class="info-item">
+              <h3>📍 Ubicación</h3>
+              <p>Madrid, España</p>
+            </div>
+            <div class="info-item">
+              <h3>💬 Redes Sociales</h3>
+              <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pinterest</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Momentos Eternos. Todos los derechos reservados.</p>
+        <p>Fotografía profesional de bodas en Madrid y alrededores</p>
+      </div>
+    </footer>
   </body>
 </html>
